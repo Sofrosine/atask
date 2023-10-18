@@ -17,6 +17,7 @@ const CardNote: FC<Props> = ({item}) => {
 
   return (
     <TouchableOpacity
+      testID="card-note-container"
       onPress={() =>
         navigation.navigate('NoteDetailPage', {
           data: item,
